@@ -1,5 +1,7 @@
 # DaVinci Resolve MCP — Kimi Plugin
 
+[![CI](https://github.com/TAHK-DS/davinci-resolve-mcp-kimi/actions/workflows/ci.yml/badge.svg)](https://github.com/TAHK-DS/davinci-resolve-mcp-kimi/actions/workflows/ci.yml)
+
 **[Русская версия](README.ru.md)**
 
 Control **DaVinci Resolve Studio** directly from [Kimi](https://www.kimi.com/) (Kimi Work desktop agent): projects, timelines, editing, media pool, color grading & LUTs, Fusion, Fairlight, rendering and export — **37 composite tools** over the official Resolve Scripting API, exposed as a local MCP server.
