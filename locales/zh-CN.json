@@ -1,0 +1,23 @@
+{
+  "displayName": "DaVinci Resolve",
+  "shortDescription": "通过 MCP 在 Kimi 中控制 DaVinci Resolve Studio",
+  "longDescription": "通过 MCP 控制 DaVinci Resolve Studio：项目、时间线、剪辑、媒体池、调色与 LUT、Fusion、Fairlight、渲染与导出——基于官方 Resolve 脚本 API 的 37 个复合工具。",
+  "developerName": "Local developer",
+  "tryPrompts": [
+    "用当前素材箱中的片段创建时间线",
+    "将当前时间线渲染为 H.264",
+    "为时间线上的所有片段应用 LUT"
+  ],
+  "mcpOverrides": {
+    "davinci-resolve": {
+      "displayName": "DaVinci Resolve",
+      "description": "通过 MCP 在 Kimi 中控制 DaVinci Resolve Studio"
+    }
+  },
+  "skillOverrides": {
+    "davinci-resolve": {
+      "displayName": "DaVinci Resolve",
+      "description": "通过 MCP 在 Kimi 中控制 DaVinci Resolve Studio"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "$schema": "https://catalog.msh.team/misc/kimi.plugin.schema.json",
+  "name": "davinci-resolve",
+  "version": "0.1.0",
+  "description": "Control DaVinci Resolve Studio via MCP: projects, timelines, editing, media pool, color grading and LUTs, Fusion, Fairlight, rendering and export — 37 composite tools over the official Resolve Scripting API.",
+  "keywords": ["davinci", "resolve", "video", "editing", "color grading", "mcp"],
+  "author": "Local developer",
+  "license": "MIT",
+  "skillInstructions": "",
+  "interface": {
+    "displayName": "DaVinci Resolve",
+    "shortDescription": "Control DaVinci Resolve Studio from Kimi via MCP",
+    "longDescription": "Control DaVinci Resolve Studio via MCP: projects, timelines, editing, media pool, color grading and LUTs, Fusion, Fairlight, rendering and export — 37 composite tools over the official Resolve Scripting API.",
+    "developerName": "Local developer",
+    "websiteURL": "https://github.com/TAHK-DS/davinci-resolve-mcp-kimi",
+    "iconUrl": "",
+    "category": "PRODUCTIVITY",
+    "defaultLocale": "en-US",
+    "locales": "./locales/",
+    "tryPrompts": [
+      "Create a timeline from the clips in the current bin",
+      "Render the current timeline to H.264",
+      "Apply a LUT to every clip on the timeline"
+    ],
+    "skillOverrides": {
+      "davinci-resolve": {
+        "displayName": "DaVinci Resolve",
+        "description": "Control DaVinci Resolve Studio from Kimi via MCP"
+      }
+    },
+    "hostKind": "local",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "mcpOverrides": {
+      "davinci-resolve": {
+        "displayName": "DaVinci Resolve",
+        "description": "Control DaVinci Resolve Studio from Kimi via MCP"
+      }
+    }
+  },
+  "skills": "./skills/",
+  "mcpServers": {
+    "davinci-resolve": {
+      "command": "./server/venv/bin/python",
+      "args": [
+        "./server/src/server.py"
+      ],
+      "env": {
+        "RESOLVE_SCRIPT_API": "/Library/Application Support/Blackmagic Design/DaVinci Resolve/Developer/Scripting",
+        "RESOLVE_SCRIPT_LIB": "/Applications/DaVinci Resolve/DaVinci Resolve.app/Contents/Libraries/Fusion/fusionscript.so",
+        "PYTHONPATH": "/Library/Application Support/Blackmagic Design/DaVinci Resolve/Developer/Scripting/Modules"
+      }
+    }
+  }
+}

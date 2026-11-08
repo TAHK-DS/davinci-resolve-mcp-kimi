@@ -1,0 +1,23 @@
+{
+  "displayName": "DaVinci Resolve",
+  "shortDescription": "Управление DaVinci Resolve Studio из Kimi через MCP",
+  "longDescription": "Управление DaVinci Resolve Studio через MCP: проекты, таймлайны, монтаж, медиапул, цветокоррекция и LUT, Fusion, Fairlight, рендер и экспорт — 37 составных инструментов поверх официального Scripting API Resolve.",
+  "developerName": "Local developer",
+  "tryPrompts": [
+    "Создай таймлайн из клипов в текущем бине",
+    "Отрендери текущий таймлайн в H.264",
+    "Примени LUT ко всем клипам на таймлайне"
+  ],
+  "mcpOverrides": {
+    "davinci-resolve": {
+      "displayName": "DaVinci Resolve",
+      "description": "Управление DaVinci Resolve Studio из Kimi через MCP"
+    }
+  },
+  "skillOverrides": {
+    "davinci-resolve": {
+      "displayName": "DaVinci Resolve",
+      "description": "Управление DaVinci Resolve Studio из Kimi через MCP"
+    }
+  }
+}

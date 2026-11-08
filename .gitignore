@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments (recreated by setup.sh — must NOT be committed:
+# Kimi's plugin safety scan rejects symlinked interpreters)
+server/venv/
+venv/
+
+# Node (optional advanced offline server — install on demand, see server/README.md)
+node_modules/
+
+# Runtime artifacts
+logs/
+*.log
+.DS_Store
