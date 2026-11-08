@@ -8,6 +8,8 @@
 
 Репозиторий — это готовый к установке **плагин Kimi**, в который упакован открытый MCP-сервер [`davinci-resolve-mcp`](https://github.com/samuelgursky/davinci-resolve-mcp) (MIT, автор @samuelgursky — вся заслуга за сервер принадлежит апстриму) и Kimi-скилл, обучающий агента работе с Resolve.
 
+![Плагин в Kimi (Плагины → Created by you)](docs/screenshot-plugin.png)
+
 ## Что внутри
 
 | Компонент | Содержимое |

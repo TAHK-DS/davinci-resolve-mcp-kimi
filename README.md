@@ -8,6 +8,8 @@ Control **DaVinci Resolve Studio** directly from [Kimi](https://www.kimi.com/) (
 
 This repository is a ready-to-install **Kimi plugin** that packages the open-source [`davinci-resolve-mcp`](https://github.com/samuelgursky/davinci-resolve-mcp) server (MIT, by @samuelgursky — all credit for the server goes upstream) together with a Kimi skill that teaches the agent how to drive Resolve.
 
+![The plugin installed in Kimi (Plugins → Created by you)](docs/screenshot-plugin.png)
+
 ## What you get
 
 | Component | Contents |
